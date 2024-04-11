@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,101,101,1) 43%, rgba(0,212,255,1) 100%);
+  }
+  
+  #root {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  .todo-app{
+    margin-top: 5%;
+    /* padding-right: 10px; */
+    height: auto;
+    width: 60%;
+    /* border:  2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* overflow-x: hidden; */
+  }
+  
