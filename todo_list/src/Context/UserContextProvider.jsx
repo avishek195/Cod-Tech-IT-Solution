@@ -41,6 +41,8 @@ const UserContextProvider = ({ children }) => {
         },
       ]);
       setInputValue("");
+    } else {
+      return alert("Enter Todo");
     }
   };
   // console.log(todos);
